@@ -1,0 +1,15 @@
+body {
+    background: #f1f1f1;
+}
+
+.navbar {
+    min-height: 80px;
+}
+.navbar-brand {
+    padding: 0px 5px;
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-form{
+    padding: 15px 20px;
+}

@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="col-sm-4">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2 navbar-header">
+                <a class="navbar-brand">
+                    <h1>
+                        <b>FriendsBook</b>
+                    </h1>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-2 nav navbar-nav navbar-right">
+        </div>
+
+        <form class=" navbar-form navbar-right">
+            <div class="form-group">
+                <input type="text" [(ngModel)]="username" name="username" placeholder="Username">&nbsp;
+                <input type="password" [(ngModel)]="password" name="password" placeholder="Password">&nbsp;
+                <button (click)="login()" class="btn btn-primary">Log In</button>
+            </div>
+        </form>
+    </div>
+</nav>
+<app-register></app-register>
